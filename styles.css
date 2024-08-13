@@ -11,7 +11,14 @@ body {
     flex-direction: column;
 }
 
+.img-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 142px);
+    gap: 16px;
+}
+
 .img-container {
+    grid-column: 1 / -1;
     object-fit: cover;
     overflow: hidden;
     border: 2px solid black;
