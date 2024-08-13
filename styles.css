@@ -10,3 +10,19 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.img-container {
+    object-fit: cover;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+img {
+    width: 300px;
+    margin-bottom: -8px;
+}
+
+#real-face-img {
+    display: none;
+}
